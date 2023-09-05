@@ -2,11 +2,12 @@ const React = require('react')
 
 class Show extends React.Component {
   render () {
-    const { name, color ,readyToEat} = this.props.vegetable
+    const { name, color ,readyToEat, img} = this.props.vegetable
 
     return (
       <div>
         <h1> Show Page </h1>
+        <div>
         The {name} is {color}.
         And {
           readyToEat ? 
@@ -14,6 +15,9 @@ class Show extends React.Component {
           :
             "It is not ready to eat... Cant touch this"
         }
+        </div>
+       
+        <img src={img} alt="" />
       </div>
     );
   }
