@@ -41,5 +41,5 @@ module.exports = Fruit
 //     img: 'https://images.pexels.com/photos/11015360/pexels-photo-11015360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
 //   },
 // ];
-z
+
 // module.exports = fruits;
